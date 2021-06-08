@@ -1,7 +1,7 @@
 {
   "name": "@choux/array-utils",
   "author": "danielseehausen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Functional Array Utils! There are many like it, but this one is for _you_.",
   "main": "index.js",
   "np": {
