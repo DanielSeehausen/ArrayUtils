@@ -1,0 +1,33 @@
+{
+  "name": "@choux/array-utils",
+  "author": "danielseehausen",
+  "version": "0.0.1",
+  "description": "Functional Array Utils! There are many like it, but this one is for _you_.",
+  "main": "index.js",
+  "np": {
+    "yarn": false,
+    "contents": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielseehausen/ArrayUtils.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-with-coverage": "jest -i --coverage"
+  },
+  "files": [
+    "index.js"
+  ],
+  "author": "danielseehausen",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.4.0"
+  }
+}
