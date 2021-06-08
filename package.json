@@ -1,7 +1,7 @@
 {
   "name": "@choux/array-utils",
   "author": "danielseehausen",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Functional Array Utils! There are many like it, but this one is for _you_.",
   "main": "index.js",
   "np": {
@@ -22,10 +22,6 @@
     "test": "jest",
     "test-with-coverage": "jest -i --coverage"
   },
-  "files": [
-    "index.js"
-  ],
-  "author": "danielseehausen",
   "license": "MIT",
   "devDependencies": {
     "jest": "^25.4.0"
