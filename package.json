@@ -2,16 +2,15 @@
   "name": "@choux/array-utils",
   "author": "danielseehausen",
   "version": "0.0.5",
-  "description": "Functional Array Utils! There are many like it, but this one is for _you_.",
-  "main": "index.js",
-  "np": {
-    "yarn": false,
-    "contents": "src"
-  },
+  "description": "Functional Array Utils! There are many like it, but this one is for _you_. Includes: getMiddleElement | sample | replaceAtIdx | removeAtIdx | getDifference | sortObjectsByKeyValue | shuffle",
   "repository": {
     "type": "git",
     "url": "https://github.com/danielseehausen/ArrayUtils.git"
   },
+  "release": {
+    "branches": ["main"]
+  },
+  "main": "index.js",
   "files": [
     "index.js"
   ],
@@ -20,10 +19,12 @@
   },
   "scripts": {
     "test": "jest",
-    "test-with-coverage": "jest -i --coverage"
+    "test-with-coverage": "jest -i --coverage",
+    "test-release": "npx semantic-release --dry-run"
   },
-  "license": "MIT",
   "devDependencies": {
-    "jest": "^25.4.0"
-  }
+    "jest": "^25.4.0",
+    "semantic-release": "^17.4.3"
+  },
+  "license": "MIT"
 }

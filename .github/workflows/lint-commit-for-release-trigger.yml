@@ -1,9 +1,9 @@
 name: "Lint PR for valid release/version bump trigger"
 
 on:
-  pull_request_target:
+  pull_request:
     branches: [main]
-    types: [assigned, opened, synchronize, reopened]
+    types: [assigned, opened, synchronize, reopened, edited]
 jobs:
   main:
     runs-on: ubuntu-latest
